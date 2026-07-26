@@ -1,9 +1,9 @@
 name: Materialise EM-002 framework
 
 on:
-  push:
+  pull_request:
     branches:
-      - em-002-clean-room-pilot-v2
+      - master
 
 permissions:
   contents: write
